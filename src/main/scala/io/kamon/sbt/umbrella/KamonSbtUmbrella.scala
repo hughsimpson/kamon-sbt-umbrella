@@ -91,7 +91,7 @@ object KamonSbtUmbrella extends AutoPlugin {
   )
 
   private def scalaVersionSetting = Def.setting {
-    if (sbtPlugin.value) scalaVersion.value else "2.12.7"
+    if (sbtPlugin.value) scalaVersion.value else "2.13.0"
   }
 
   private def crossScalaVersionsSetting = Def.setting {
