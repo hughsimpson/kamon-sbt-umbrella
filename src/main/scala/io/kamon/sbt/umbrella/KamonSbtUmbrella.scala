@@ -95,7 +95,7 @@ object KamonSbtUmbrella extends AutoPlugin {
   }
 
   private def crossScalaVersionsSetting = Def.setting {
-    if (sbtPlugin.value) Seq(scalaVersion.value) else Seq("2.10.7", "2.11.12", "2.12.7")
+    if (sbtPlugin.value) Seq(scalaVersion.value) else Seq("2.10.7", "2.11.12", "2.12.7", "2.13.0")
   }
 
   private def versionSetting = Def.setting {
